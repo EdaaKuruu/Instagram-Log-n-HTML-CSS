@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+    background-size: 500% 500%;
+    animation: animeBG 3s ease infinite;
+    animation-direction: alternate;
+}
+
+.kutum{
+    padding:20px;
+    font:16px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    position: absolute;
+    top: 26%;
+    left: 70%;
+    margin-left: -300px;
+    margin-top: -150px;
+    background:#fff;
+    width: 370px;
+    height: 345px;
+   }
+
+   h1{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 2em;
+      position:relative;
+      left:110px;
+   }
+
+   h3{
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-size: 15px;
+       color: #120A8F;
+       position: absolute;
+       top: 295px;
+       left: 138px;
+ 
+ }
+   
+   .kutum .Tel {
+	position: relative;
+	width: 90%;
+    top: 15px;
+    left: 45px;
+	margin-bottom: 10px;
+
+}
+
+.kutum .Tel input {
+	height: 35px;
+	width: 80%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	outline: none;
+    background-color: #f7f7f7;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    
+	
+	
+}
+
+.kutum .Tel span {
+	position: absolute;
+	top: 8px;
+	left: 4px;
+	padding: 0;
+    font-size: 12px;
+	transition: 0.5s;
+	pointer-events: none;
+	color: #cccccc;
+
+}
+
+.kutum .Tel input:focus ~ span,
+.kutum .Tel input:valid ~ span {
+	top: -12px;
+	left: 12px;
+	font-size: 10px;
+	padding: 2px 4px;
+}
+.buttonum{
+    position: absolute;
+    top: 280px;
+    left: 960px;
+    width: 268px;
+    height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color:#ADD8E6;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+ 
+
+hr {
+    position: absolute;
+    top: 340px;
+    left: 960px;
+    width: 108px;
+    color: #000;
+  
+}
+
+
+
+p{
+    position: absolute;
+    top: 320px;
+    left: 1080px;
+    height: 120px;
+    width: 120px;
+    
+}
+
+.logom{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 60px; 
+    left: 408px;
+}
+
+.buttonum:hover {background-color: #007FFF}
+
+.buttonum:active {
+      
+    background-color: #ADD8E6;
+    transform: translateY(2px);
+
+}
+.face{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 380px;
+    left: 1000px;
+}
+
+h5{
+    position: absolute;
+    top: 330px;
+    left: 160px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+.kutum1{
+
+    padding:20px;
+    font:12px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    position: absolute;
+    top: 74%;
+    left: 70%;
+    margin-left: -300px;
+    margin-top: -150px;
+    background:#fff;
+    width: 368px;
+    height: 30px;
+
+}
+
+h2{
+    position: absolute;
+    font-size:12px;
+    left: 150px;
+    
+}
+      
+h4{
+    position: absolute;
+    font-size:12px;
+    left: 255px;
+    top: 15px;
+    color: #3d9eff;
+}
+
+.Uygula{
+    position: absolute;
+    font-size:12px;
+    left: 156px;
+    top: 78px;
+}
+
+.kutum2{
+    padding: 20px;
+    font:12px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    background:#000;
+    color: #fff;
+    width: 105px;
+    height: 7px;
+    border-radius: 10px;
+
+
+}
+
+.kutum3{
+    padding: 20px;
+    font:12px Arial, Helvetica, sans-serif;
+    text-align: justify;
+    position: absolute;
+    top: 130px;
+    left: 230px;
+    background:#000;
+    color: #fff;
+    width: 105px;
+    height: 7px;
+    border-radius: 10px;
+
+}
+
+
+.resim img{
+    position: absolute;
+    top: 140px;
+    left: 240px;
+    width: 30px;
+    height: 30px;
+}
+
+.resim1 img{
+    position: absolute;
+    top: 140px;
+    left:53px;
+    width: 30px;
+    height: 30px;
+}
+
+.kutum2 span{
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+.kutum3 span{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+
+
+ 
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
